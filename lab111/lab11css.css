@@ -1,0 +1,58 @@
+html , body {
+      margin : 0;
+      padding : 0;
+      width: 100%;
+      position: fixed;
+}
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 15px;
+      background-color: rgba(16,16,16,1);
+      font-family: 'Montserrat', sans-serif;
+}
+nav ul li {
+      display: inline-block;
+      padding: 0px 100px;
+}
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+.bcgr {
+      position: fixed;
+      left: 0%;
+      top: 5%;
+}
+.square {
+      position: absolute;
+      width: 700px;
+      height: 800px;
+      background: rgba(30,30,30,0.8);
+}
+.text1 {
+      position: fixed;
+      top: 30%;
+      left: 5%;
+      color: yellow;
+      font-size: 30px;
+      font-family: 'Montserrat', sans-serif;
+}
+.text2 {
+      position: fixed;
+      top: 65%;
+      left: 5%;
+      color: yellow;
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+}
+.BMX {
+      position: fixed;
+      top: 10%;
+      left: 14%;
+      color: yellow;
+      font-weight: bold;
+      font-size: 100px;
+      font-family: 'Montserrat', sans-serif;
+}
